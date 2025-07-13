@@ -8,14 +8,14 @@ const Hero = () => {
   };
 
   return (
-    <section className="min-h-screen flex items-center justify-center bg-gradient-professional px-4 sm:px-6 lg:px-8">
+    <section className="min-h-screen flex items-center justify-center bg-background px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto text-center">
         {/* Main content */}
         <div className="mb-8 animate-fade-in">
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-light text-foreground mb-6 tracking-wide">
             Haruki Saito
           </h1>
-          <div className="h-1 w-24 bg-gradient-hero mx-auto mb-8 rounded-full"></div>
+          <div className="h-1 w-24 bg-primary mx-auto mb-8 rounded-full"></div>
           <p className="text-xl sm:text-2xl text-muted-foreground mb-4 font-light">
             Full Stack Developer
           </p>
