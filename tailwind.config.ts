@@ -61,7 +61,30 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				/* Japanese aesthetic colors */
+				'zen-stone': 'hsl(var(--zen-stone))',
+				'bamboo': 'hsl(var(--bamboo))',
+				'cherry-blossom': 'hsl(var(--cherry-blossom))',
+				'paper': 'hsl(var(--paper))',
+				'ink': 'hsl(var(--ink))',
+				'mist': 'hsl(var(--mist))'
+			},
+			backgroundImage: {
+				'gradient-zen': 'var(--gradient-zen)',
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-card': 'var(--gradient-card)'
+			},
+			boxShadow: {
+				'zen': 'var(--shadow-zen)',
+				'card': 'var(--shadow-card)',
+				'hover': 'var(--shadow-hover)'
+			},
+			spacing: {
+				'zen': 'var(--space-zen)'
+			},
+			transitionTimingFunction: {
+				'zen': 'cubic-bezier(0.4, 0, 0.2, 1)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
