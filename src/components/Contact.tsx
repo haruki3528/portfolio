@@ -6,7 +6,7 @@ import { Mail, Globe, Clock } from "lucide-react";
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8 bg-mist">
+    <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8 bg-warm-gray">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-light text-foreground mb-4">
@@ -64,7 +64,7 @@ const Contact = () => {
           </div>
 
           {/* Contact Form */}
-          <Card className="p-8 bg-gradient-card border-0 shadow-zen">
+          <Card className="p-8 bg-gradient-card border-0 shadow-professional">
             <h3 className="text-2xl font-semibold text-foreground mb-6">
               Start a Conversation
             </h3>

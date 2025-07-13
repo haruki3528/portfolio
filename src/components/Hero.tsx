@@ -8,7 +8,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="min-h-screen flex items-center justify-center bg-gradient-zen px-4 sm:px-6 lg:px-8">
+    <section className="min-h-screen flex items-center justify-center bg-gradient-professional px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto text-center">
         {/* Main content */}
         <div className="mb-8 animate-fade-in">

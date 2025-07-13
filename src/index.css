@@ -8,60 +8,60 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Japanese-inspired color palette */
-    --background: 45 20% 97%;
-    --foreground: 15 25% 15%;
+    /* Professional and kindly color palette */
+    --background: 210 40% 98%;
+    --foreground: 222 47% 11%;
 
     --card: 0 0% 100%;
-    --card-foreground: 15 25% 15%;
+    --card-foreground: 222 47% 11%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 15 25% 15%;
+    --popover-foreground: 222 47% 11%;
 
-    /* Warm earth tone as primary - inspired by traditional Japanese ceramics */
-    --primary: 25 35% 35%;
-    --primary-foreground: 45 20% 97%;
+    /* Professional blue as primary - trustworthy and calm */
+    --primary: 217 91% 60%;
+    --primary-foreground: 0 0% 100%;
 
-    /* Soft sage green secondary */
-    --secondary: 120 15% 85%;
-    --secondary-foreground: 15 25% 15%;
+    /* Soft blue-gray secondary */
+    --secondary: 214 32% 91%;
+    --secondary-foreground: 222 47% 11%;
 
-    /* Warm neutral muted tones */
-    --muted: 40 15% 90%;
-    --muted-foreground: 15 15% 45%;
+    /* Gentle neutral muted tones */
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 16% 47%;
 
-    /* Soft accent color - muted cherry blossom pink */
-    --accent: 350 25% 85%;
-    --accent-foreground: 15 25% 15%;
+    /* Warm accent color - friendly and approachable */
+    --accent: 213 27% 84%;
+    --accent-foreground: 222 47% 11%;
 
-    --destructive: 0 70% 50%;
+    --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 40 20% 88%;
-    --input: 40 20% 90%;
-    --ring: 25 35% 35%;
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 217 91% 60%;
 
-    /* Japanese-inspired design tokens */
-    --zen-stone: 40 8% 25%;
-    --bamboo: 85 25% 45%;
-    --cherry-blossom: 350 30% 75%;
-    --paper: 45 30% 95%;
-    --ink: 15 25% 15%;
-    --mist: 200 15% 92%;
+    /* Professional design tokens */
+    --slate-blue: 215 20% 65%;
+    --ocean-blue: 217 91% 60%;
+    --soft-blue: 213 27% 84%;
+    --warm-gray: 210 11% 96%;
+    --charcoal: 222 47% 11%;
+    --cloud: 210 40% 98%;
 
     /* Gradients */
-    --gradient-zen: linear-gradient(135deg, hsl(var(--background)), hsl(var(--muted)));
-    --gradient-hero: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--zen-stone)) 100%);
-    --gradient-card: linear-gradient(145deg, hsl(var(--card)), hsl(var(--paper)));
+    --gradient-professional: linear-gradient(135deg, hsl(var(--background)), hsl(var(--warm-gray)));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--slate-blue)) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(var(--card)), hsl(var(--cloud)));
 
     /* Shadows */
-    --shadow-zen: 0 4px 20px -4px hsl(var(--primary) / 0.1);
-    --shadow-card: 0 2px 12px -2px hsl(var(--primary) / 0.08);
-    --shadow-hover: 0 8px 30px -6px hsl(var(--primary) / 0.15);
+    --shadow-professional: 0 4px 20px -4px hsl(var(--primary) / 0.08);
+    --shadow-card: 0 2px 12px -2px hsl(var(--primary) / 0.06);
+    --shadow-hover: 0 8px 30px -6px hsl(var(--primary) / 0.12);
 
     /* Spacing and rhythm */
-    --space-zen: 1.618rem; /* Golden ratio spacing */
-    --transition-zen: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --space-professional: 1.5rem;
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
     --radius: 0.5rem;
 

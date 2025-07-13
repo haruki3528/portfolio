@@ -45,18 +45,18 @@ const Projects = () => {
   const getCategoryColor = (category: string) => {
     switch (category) {
       case "AI/ML":
-        return "bg-bamboo text-white";
+        return "bg-ocean-blue text-white";
       case "Blockchain":
-        return "bg-primary text-primary-foreground";
+        return "bg-slate-blue text-white";
       case "Full Stack":
-        return "bg-cherry-blossom text-foreground";
+        return "bg-soft-blue text-foreground";
       default:
         return "bg-muted text-muted-foreground";
     }
   };
 
   return (
-    <section id="projects" className="py-20 px-4 sm:px-6 lg:px-8 bg-mist">
+    <section id="projects" className="py-20 px-4 sm:px-6 lg:px-8 bg-warm-gray">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-light text-foreground mb-4">

@@ -62,29 +62,29 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				/* Japanese aesthetic colors */
-				'zen-stone': 'hsl(var(--zen-stone))',
-				'bamboo': 'hsl(var(--bamboo))',
-				'cherry-blossom': 'hsl(var(--cherry-blossom))',
-				'paper': 'hsl(var(--paper))',
-				'ink': 'hsl(var(--ink))',
-				'mist': 'hsl(var(--mist))'
+				/* Professional color tokens */
+				'slate-blue': 'hsl(var(--slate-blue))',
+				'ocean-blue': 'hsl(var(--ocean-blue))',
+				'soft-blue': 'hsl(var(--soft-blue))',
+				'warm-gray': 'hsl(var(--warm-gray))',
+				'charcoal': 'hsl(var(--charcoal))',
+				'cloud': 'hsl(var(--cloud))'
 			},
 			backgroundImage: {
-				'gradient-zen': 'var(--gradient-zen)',
+				'gradient-professional': 'var(--gradient-professional)',
 				'gradient-hero': 'var(--gradient-hero)',
 				'gradient-card': 'var(--gradient-card)'
 			},
 			boxShadow: {
-				'zen': 'var(--shadow-zen)',
+				'professional': 'var(--shadow-professional)',
 				'card': 'var(--shadow-card)',
 				'hover': 'var(--shadow-hover)'
 			},
 			spacing: {
-				'zen': 'var(--space-zen)'
+				'professional': 'var(--space-professional)'
 			},
 			transitionTimingFunction: {
-				'zen': 'cubic-bezier(0.4, 0, 0.2, 1)'
+				'smooth': 'cubic-bezier(0.4, 0, 0.2, 1)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
