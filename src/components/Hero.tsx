@@ -1,18 +1,17 @@
 import { Button } from "@/components/ui/button";
 import { Mail, Github, Linkedin } from "lucide-react";
-
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
-    element?.scrollIntoView({ behavior: "smooth" });
+    element?.scrollIntoView({
+      behavior: "smooth"
+    });
   };
-
-  return (
-    <section className="min-h-screen flex items-center justify-center bg-background px-4 sm:px-6 lg:px-8">
+  return <section className="min-h-screen flex items-center justify-center bg-background px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto text-center">
         {/* Main content */}
         <div className="mb-8 animate-fade-in">
-          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-light text-foreground mb-6 tracking-wide">
+          <h1 className="text-5xl sm:text-6xl text-foreground mb-6 tracking-wide font-normal lg:text-7xl">
             Haruki Saito
           </h1>
           <div className="h-1 w-24 bg-primary mx-auto mb-8 rounded-full"></div>
@@ -27,45 +26,23 @@ const Hero = () => {
 
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-          <Button 
-            variant="zen" 
-            size="zen"
-            onClick={() => scrollToSection("projects")}
-            className="min-w-48"
-          >
+          <Button variant="zen" size="zen" onClick={() => scrollToSection("projects")} className="min-w-48">
             View My Work
           </Button>
-          <Button 
-            variant="minimal" 
-            size="zen"
-            onClick={() => scrollToSection("contact")}
-            className="min-w-48"
-          >
+          <Button variant="minimal" size="zen" onClick={() => scrollToSection("contact")} className="min-w-48">
             Get In Touch
           </Button>
         </div>
 
         {/* Contact Links */}
         <div className="flex justify-center space-x-6">
-          <a 
-            href="mailto:chardy14789@gmail.com" 
-            className="text-muted-foreground hover:text-primary transition-colors duration-300 hover:scale-110 transform"
-            aria-label="Email"
-          >
+          <a href="mailto:chardy14789@gmail.com" className="text-muted-foreground hover:text-primary transition-colors duration-300 hover:scale-110 transform" aria-label="Email">
             <Mail size={24} />
           </a>
-          <a 
-            href="#" 
-            className="text-muted-foreground hover:text-primary transition-colors duration-300 hover:scale-110 transform"
-            aria-label="GitHub"
-          >
+          <a href="#" className="text-muted-foreground hover:text-primary transition-colors duration-300 hover:scale-110 transform" aria-label="GitHub">
             <Github size={24} />
           </a>
-          <a 
-            href="#" 
-            className="text-muted-foreground hover:text-primary transition-colors duration-300 hover:scale-110 transform"
-            aria-label="LinkedIn"
-          >
+          <a href="#" className="text-muted-foreground hover:text-primary transition-colors duration-300 hover:scale-110 transform" aria-label="LinkedIn">
             <Linkedin size={24} />
           </a>
         </div>
@@ -77,8 +54,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
